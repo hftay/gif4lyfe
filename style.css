@@ -1,0 +1,46 @@
+body{
+	background: gold;
+}
+
+form {
+	text-align: center;
+}
+
+.navbar {
+	width: 100%;
+	position: fixed;
+	top: 0;
+	background: gold;
+	padding: 10px 0	;
+	/*margin: 0 0 20px 0;*/
+}
+
+input {
+	margin-right: 0.3em;
+	text-align: center;
+	background-color: #fef2e3;
+	transition: 0.1s;
+}
+
+input:focus {
+	font-size: 1em;
+}
+
+button:hover {
+	color: gold;
+	cursor: pointer;
+}
+
+.giphy {
+	display: block;
+	width: 20%;
+	margin: 0 auto;
+	vertical-align: middle;
+	border-radius: 15px;
+	padding: 10px;
+	transition: 0.7s;
+}
+
+.giphy:hover {
+	width: 50%;
+}
