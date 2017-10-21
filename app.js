@@ -39,7 +39,7 @@ var ajaxCounter = 0;
 
 var ajaxCall = function(ajaxCounter){
 	var options = {
-		url: "http://api.giphy.com/v1/gifs/search",
+		url: "https://api.giphy.com/v1/gifs/search",
 		method: "get",
 		data: { 
 			api_key: 'h8zQNEi5XPcKvGzjwqr3KYPkamYWsVD9', 
@@ -49,7 +49,7 @@ var ajaxCall = function(ajaxCounter){
 			}
 	}
 	var appendSearchResults = function(response){
-		// console.log(response);
+		console.log(response);
 		response.data.forEach(function(gif){
 			$gifDiv = $('<img>').prop({
 				'src': gif.images.original.url,
